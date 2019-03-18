@@ -1,0 +1,19 @@
+%read data(txt)
+
+
+fid1=fopen('Stopruntime_24_23.txt','r');
+a1=textscan(fid1,'%s%s%d%f%s%d%d%s%s%d%s%d%d%s%s%d%s','Delimiter',' ');
+
+
+figure(1);
+b1=a1{4};
+display(a1{4});
+[f1,xi1]=ksdensity(b1);
+plot(xi1,f1,'b');
+
+
+%subplot(2,1,1);
+
+
+
+
