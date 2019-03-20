@@ -20,7 +20,7 @@ namespace Bus_Stop
         *connectStr163 数据库连接凭证
 ******************************************************************/
 
-        static public string connectStr163 = "Provider=MSDAORA;host=172.18.190.163;data source=stbus;user id=sa;password=Its312";
+        static public string connectStr163 = "Provider=MSDAORA;host=0.0.10.0;data source=databasename;user id=name;password=password";
         public ADOHelper ado163 = new ADOHelper(connectStr163);
 
         public Form1()
